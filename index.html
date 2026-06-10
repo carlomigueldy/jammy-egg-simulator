@@ -5,18 +5,75 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>The perfect egg — a 7-minute jammy egg simulator</title>
 <meta name="description" content="An interactive simulator of the most reproducible recipe in breakfast: the 7-minute jammy egg. Pick a time, cook, slice, inspect the yolk.">
+<meta name="author" content="Carlo Miguel Dy">
 <meta property="og:title" content="The perfect egg, simulated">
 <meta property="og:description" content="Boil a virtual egg from 5:00 to 12:00 and watch the yolk go runny, jammy, then chalky. The perfect one is 7:00.">
 <meta property="og:type" content="website">
+<meta property="og:site_name" content="Jammy Egg Simulator">
+<meta property="og:locale" content="en_US">
 <meta property="og:url" content="https://jammy-egg-simulator.vercel.app">
 <meta property="og:image" content="https://jammy-egg-simulator.vercel.app/og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:alt" content="The simulator after a 7:00 cook: a pot at a rolling boil, an ice bath, and a sliced egg with a jammy orange yolk — verdict: Perfect. Jammy.">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The perfect egg, simulated">
+<meta name="twitter:description" content="Boil a virtual egg from 5:00 to 12:00 and watch the yolk go runny, jammy, then chalky. The perfect one is 7:00.">
+<meta name="twitter:image" content="https://jammy-egg-simulator.vercel.app/og.png">
+<meta name="twitter:image:alt" content="The simulator after a 7:00 cook: a pot at a rolling boil, an ice bath, and a sliced egg with a jammy orange yolk — verdict: Perfect. Jammy.">
 <link rel="canonical" href="https://jammy-egg-simulator.vercel.app">
 <meta name="theme-color" content="#FAF9F5" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#1D1C19" media="(prefers-color-scheme: dark)">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cellipse cx='50' cy='54' rx='42' ry='40' fill='%23FDFBF6' stroke='%23E6DFCE' stroke-width='3'/%3E%3Ccircle cx='50' cy='52' r='17' fill='%23E8821E'/%3E%3C/svg%3E">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "WebApplication",
+   "@id": "https://jammy-egg-simulator.vercel.app/#app",
+   "name": "The perfect egg — a 7-minute jammy egg simulator",
+   "url": "https://jammy-egg-simulator.vercel.app/",
+   "description": "An interactive simulator of the most reproducible recipe in breakfast: the 7-minute jammy egg. Pick a time, cook, slice, inspect the yolk.",
+   "image": "https://jammy-egg-simulator.vercel.app/og.png",
+   "inLanguage": "en",
+   "isAccessibleForFree": true,
+   "browserRequirements": "Requires JavaScript",
+   "license": "https://opensource.org/licenses/MIT",
+   "author": {"@id": "https://jammy-egg-simulator.vercel.app/#author"}
+  },
+  {
+   "@type": "Recipe",
+   "@id": "https://jammy-egg-simulator.vercel.app/#recipe",
+   "mainEntityOfPage": "https://jammy-egg-simulator.vercel.app/",
+   "name": "The 7-minute jammy egg",
+   "description": "Cold-start method for a jammy, fudgy-centered egg: a fridge-cold egg into a full rolling boil, 7:00 on the timer, then a 30-second ice bath. Identical egg, every single run.",
+   "image": "https://jammy-egg-simulator.vercel.app/og.png",
+   "inLanguage": "en",
+   "author": {"@id": "https://jammy-egg-simulator.vercel.app/#author"},
+   "recipeCategory": "Breakfast",
+   "recipeYield": "1 egg",
+   "cookTime": "PT7M",
+   "totalTime": "PT7M",
+   "recipeIngredient": ["1 fridge-cold egg", "Water, for boiling", "Ice, for the ice bath", "Salt"],
+   "recipeInstructions": [
+    {"@type": "HowToStep", "name": "Boil first", "text": "Bring a pot of water to a full rolling boil before the egg goes anywhere near it."},
+    {"@type": "HowToStep", "name": "Fridge-cold egg, straight in", "text": "Lower it gently with a spoon. Cold-start times are what make this reproducible."},
+    {"@type": "HowToStep", "name": "Start the timer the second it goes in", "text": "6:00 for a runny dipper, 7:00 for a jammy, fudgy center, 9:30 for hard-boiled without the gray ring."},
+    {"@type": "HowToStep", "name": "Ice bath, 30 seconds minimum", "text": "Stops the carryover cooking exactly on time and makes the shell peel cleanly."},
+    {"@type": "HowToStep", "name": "Peel, slice, salt", "text": "Identical egg, every single run. The timer is the recipe."}
+   ]
+  },
+  {
+   "@type": "Person",
+   "@id": "https://jammy-egg-simulator.vercel.app/#author",
+   "name": "Carlo Miguel Dy",
+   "url": "https://github.com/carlomigueldy"
+  }
+ ]
+}
+</script>
 <style>
 :root{
   --bg:#FAF9F5; --text:#1F1E1A; --text-2:#605F5A; --text-3:#94938D;
