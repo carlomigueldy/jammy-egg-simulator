@@ -2,6 +2,8 @@
 
 An interactive simulator of the most reproducible recipe in breakfast: the **7-minute jammy egg**.
 
+**Live demo → [jammy-egg-simulator.vercel.app](https://jammy-egg-simulator.vercel.app)**
+
 Pick a cook time from 5:00 to 12:00, press cook, and watch the whole pipeline run — rolling boil, egg lowered in straight from the fridge, timer, ice bath, peel, slice. Then inspect the yolk: runny at 6:00, jammy and fudgy at 7:00, chalky with a gray-green sulfur ring if you forget about it past 11:00.
 
 ![Screenshot of the egg simulator](og.png)
@@ -36,7 +38,7 @@ npx serve .
 
 ## Deploy
 
-Deployed on [Vercel](https://vercel.com) as a static site — no configuration needed.
+Deployed on [Vercel](https://vercel.com) as a static site — no configuration needed. Production lives at [jammy-egg-simulator.vercel.app](https://jammy-egg-simulator.vercel.app).
 
 ## License
 
